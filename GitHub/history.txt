@@ -1,0 +1,10 @@
+  262  git add .
+  263  git status
+  264  git commit -m "Add changes for homework 12"
+  265  git push
+  266  git push -u origin feature
+  267  git commit --amend
+  268  git checkout main
+  269  git merge feature
+  270  touch history.txt
+  271  history | tail -10 >> history.txt
